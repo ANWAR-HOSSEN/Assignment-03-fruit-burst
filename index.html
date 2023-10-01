@@ -9,16 +9,16 @@
 <script src="https://cdn.tailwindcss.com"></script>
 <!-- font awosome  -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
-
+<!-- git remote add origin https://github.com/ANWAR-HOSSEN/Assignment-03-fruit-burst.git -->
 
 </head>
 <body class="bg-white">
     <nav class="justify-center px-20 pt-5">
-        <div class="navbar bg-red-500 p-4 mt-12 rounded-full ">
+        <div class="navbar bg-red-500 p-4 md: w-full  lg:rounded-full mt-12 ">
             <div class="navbar-start">
               <div class="">
                
-                <ul tabindex="0" class="menu menu-sm flex flex-row  mt-3  p-2 shadow text-white w-42 ">
+                <ul tabindex="0" class="menu menu-sm md: flex-row lg: flex flex-row  mt-3  p-2  text-white w-42  ">
                   <li><a>Home</a></li>
                   <li><a>About Us</a></li>
                   <li><a>Shop</a></li>
@@ -33,7 +33,7 @@
             </div>
             <div class="navbar-end "> 
               <form action="" class="relative ">
-                <input class=" relative rounded-full px-5 bg-white" type="text" placeholder="Search here " name="search">
+                <input class=" relative  rounded-full px-5 bg-white" type="text" placeholder="Search here " name="search">
                 <button class="absolute right-2 text-black"><i class="  fa-solid fa-magnifying-glass"></i></button>
               </form> 
              
@@ -45,7 +45,7 @@
         <section class="justify-center  p-20">
             <div class="carousel  mt-12  ">
                  <!-- slide 1 -->
-                <div id="slide1" class="carousel-item relative w-full ">
+                <div id="slide1" class="  carousel-item relative lg:w-full ">
                     <div class="absolute  px-80 py-40 text-white leading-loose  ">
                         <h2 class="font-bold text-5xl text-white ">Exotic tastes at your <br>
                             doorstep</h2>
@@ -53,11 +53,33 @@
                             <button class="btn bg-red-600 text-white">Shop Now
                             </button>
                     </div>
-                  <img src="./images/banner1.png" class="w-full" />
+                  <img src="./images/banner1.png" class="w-full sm: w-full static  " />
                   
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide4" class="btn btn-circle">❮</a> 
                     <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                  <div class="absolute -bottom-8 left-40 z-30 bg-white justify-between text-red-600 flex gap-12 ">
+                        <div>
+                          <img src="./images/fruit1.png" alt="" srcset="">
+                          <p>  grapes</p>
+                        </div>
+                        <div>
+                          <img src="./images/fruit2.png" alt="" srcset="">
+                          <p>Orange</p>
+                        </div>
+                        <div>
+                          <img src="./images/fruit3.png" alt="" srcset="">
+                          <p>Mango</p>
+                        </div>
+                        <div>
+                          <img src="./images/fruit4.png" alt="" srcset="">
+                          <p>Strawberry</p>
+                        </div>
+                        <div>
+                          <img src="./images/fruit5.png" alt="" srcset="">
+                          <p>Pomegranate</p>
+                        </div>
                   </div>
                 </div> 
                 <!-- slide 2 -->
@@ -69,12 +91,34 @@
                             <button class="btn bg-red-600 text-white">Shop Now
                             </button>
                     </div>
-                  <img src="./images/banner2.png" class="w-full" />
+                  <img src="./images/banner2.png" class="w-full static" />
                   
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide1" class="btn btn-circle">❮</a> 
-                    <a href="#slide3" class="btn btn-circle">❯</a>
+                    <a href="#slide3" class="btn btn-circle">❯</a>                
                   </div>
+                  <div class="absolute -bottom-12 left-40 z-30 bg-white justify-between text-red-600 flex gap-12">
+                    <div>
+                      <img src="./images/fruit1.png" alt="" srcset="">
+                      <p>  grapes</p>
+                    </div>
+                    <div>
+                      <img src="./images/fruit2.png" alt="" srcset="">
+                      <p>Orange</p>
+                    </div>
+                    <div>
+                      <img src="./images/fruit3.png" alt="" srcset="">
+                      <p>Mango</p>
+                    </div>
+                    <div>
+                      <img src="./images/fruit4.png" alt="" srcset="">
+                      <p>Strawberry</p>
+                    </div>
+                    <div>
+                      <img src="./images/fruit5.png" alt="" srcset="">
+                      <p>Pomegranate</p>
+                    </div>
+              </div>
                 </div> 
                 <!-- slide 03 -->
                 <div id="slide3" class="carousel-item relative w-full">
@@ -85,12 +129,34 @@
                             <button class="btn bg-red-600 text-white">Shop Now
                             </button>
                     </div>
-                  <img src="./images/banner3.png" class="w-full" />
+                  <img src="./images/banner3.png" class="w-full static" />
                   
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide2" class="btn btn-circle">❮</a> 
                     <a href="#slide4" class="btn btn-circle">❯</a>
                   </div>
+                  <div class="absolute -bottom-12 left-40 z-30 bg-white justify-between text-red-600 flex gap-12">
+                    <div>
+                      <img src="./images/fruit1.png" alt="" srcset="">
+                      <p>  grapes</p>
+                    </div>
+                    <div>
+                      <img src="./images/fruit2.png" alt="" srcset="">
+                      <p>Orange</p>
+                    </div>
+                    <div>
+                      <img src="./images/fruit3.png" alt="" srcset="">
+                      <p>Mango</p>
+                    </div>
+                    <div>
+                      <img src="./images/fruit4.png" alt="" srcset="">
+                      <p>Strawberry</p>
+                    </div>
+                    <div>
+                      <img src="./images/fruit5.png" alt="" srcset="">
+                      <p>Pomegranate</p>
+                    </div>
+              </div>
                 </div> 
                 <!-- slide4 -->
                 <div id="slide4" class="carousel-item relative w-full">
@@ -107,20 +173,42 @@
                     <a href="#slide3" class="btn btn-circle">❮</a> 
                     <a href="#slide1" class="btn btn-circle">❯</a>
                   </div>
-                </div>
+                  <div class="absolute -bottom-12 left-40 z-30 bg-white justify-between text-red-600 flex gap-12">
+                    <div>
+                      <img src="./images/fruit1.png" alt="" srcset="">
+                      <p>  grapes</p>
+                    </div>
+                    <div>
+                      <img src="./images/fruit2.png" alt="" srcset="">
+                      <p>Orange</p>
+                    </div>
+                    <div>
+                      <img src="./images/fruit3.png" alt="" srcset="">
+                      <p>Mango</p>
+                    </div>
+                    <div>
+                      <img src="./images/fruit4.png" alt="" srcset="">
+                      <p>Strawberry</p>
+                    </div>
+                    <div>
+                      <img src="./images/fruit5.png" alt="" srcset="">
+                      <p>Pomegranate</p>
+                    </div>
+              </div>          
+                </div>               
               </div>
         </section>
                  <!-- timer -->
         <section  >
-              <div class="flex flex-row justify-between p-20 ">
-                <div >
+              <div class="lg:flex flex-row p-20 justify-between sm:mt-12  ">
+                
                     <div class="text-black" >
-                        <h1 class="text-4xl font-boldtext-black ">Deal of the day</h1>
+                        <h1 class="text-4xl font-bold text-black ">Deal of the day</h1>
                         <p class="text-black">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>
                             Latin literature from 45 BC, making it over 2000 years old.
                             </p>
                       </div>
-                  </div>
+                  
                   <div>
                     <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
                         <div class="flex flex-col text-black">
@@ -151,9 +239,9 @@
                   </div>
               </div>
               <!-- card-1 -->
-              <div class="flex justify-center gap-5">
+              <div class="lg:flex justify-center gap-5">
                 <div>
-                <div class="card card-compact w-94 p-4 ">
+                <div class="card card-compact lg:w-94 p-4 ">
                     <figure><img src="./images/fruit6.png" alt="" /></figure>
                     <div class="card-body ">
                       <h2 class="card-title justify-center text-black">12.90$ - 18.85$
@@ -168,7 +256,36 @@
                       </div>
                     </div>
                     <div class="card-actions justify-center">
-                        <button class="text-red-600">Details</button>
+                        
+                              <button class="btn text-red-600 bg-white" onclick="my_modal_1.showModal()">Details</button>
+                              <dialog id="my_modal_1" class="modal ">
+                                <div class="modal-box">
+                                  <div class="card card-compact lg:w-94  bg-white text-black">
+                                    <figure><img src="./images/fruit6.png" alt="" /></figure>
+                                    <div class="card-body ">
+                                      <h2 class="card-title justify-center text-black">12.90$ - 18.85$
+                                       </h2>
+                                      <p class="text-center text-black">Apples</p>
+                                      <p>Professional employees are there for you to pick the most
+                                        amazing and fresh fruits</p>
+                                      <div class="rating justify-center">
+                                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-red-400" checked/>
+                                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-red-400"  />
+                                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-red-400" />
+                                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-red-400" />
+                                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-red-400" />
+                                      </div>
+                                    </div>
+                                  <div class="modal-action">
+                                    <form method="dialog">
+                                     
+                                      <button class="btn bg-red-600">Close</button>
+                                      <button class="btn bg-red-600">Buy Now</button>
+                                    </form>
+                                  </div>
+                                </div>
+                              </dialog> 
+                            
                       </div>
                   </div>
               </div>
@@ -189,7 +306,36 @@
                       </div>
                     </div>
                       <div class="card-actions justify-center">
-                        <button class="text-red-600">Details</button>
+                       
+                        <button class="btn text-red-600 bg-white" onclick="my_modal_2.showModal()">Details</button>
+                        <dialog id="my_modal_2" class="modal ">
+                          <div class="modal-box ">
+                            <div class="card card-compact  bg-white text-black">
+                              <figure><img src="./images/fruit7.png" alt="" /></figure>
+                              <div class="card-body ">
+                                <h2 class="card-title justify-center text-black">12.90$ - 18.85$
+                                 </h2>
+                                <p class="text-center text-black font-semibold">Orange</p>
+                                <p>Professional employees are there for you to pick the most
+                                  amazing and fresh fruits</p>
+                                <div class="rating justify-center">
+                                  <input type="radio" name="rating-4" class="mask mask-star-2 bg-red-400" checked/>
+                                  <input type="radio" name="rating-4" class="mask mask-star-2 bg-red-400"  />
+                                  <input type="radio" name="rating-4" class="mask mask-star-2 bg-red-400" />
+                                  <input type="radio" name="rating-4" class="mask mask-star-2 bg-red-400" />
+                                  <input type="radio" name="rating-4" class="mask mask-star-2 bg-red-400" />
+                                </div>
+                              </div>
+                            <div class="modal-action">
+                              <form method="dialog">
+                               
+                                <button class="btn bg-red-600">Close</button>
+                                <button class="btn bg-red-600">Buy Now</button>
+                              </form>
+                            </div>
+                          </div>
+                        </dialog> 
+
                       </div>
                 </div>
               </div>
@@ -198,9 +344,9 @@
                 <div class="card card-compact w-94 p-4  ">
                     <figure><img src="./images/fruit8.png" alt="" /></figure>
                     <div class="card-body ">
-                      <h2 class="card-title justify-cente text-black">12.90$ - 18.85$
+                      <h2 class="card-title justify-center text-black">12.90$ - 18.85$
                        </h2>
-                      <p class="text-center text-black">Red Dragon
+                      <p class="text-center text-black font-semibold ">Red Dragon
                     </p>
                       <div class="rating justify-center">
                         <input type="radio" name="rating-4" class="mask mask-star-2 bg-red-400" checked/>
@@ -211,7 +357,34 @@
                       </div>
                     </div>
                     <div class="card-actions justify-center">
-                        <button class="text-red-600">Details</button>
+                      <button class="btn text-red-600 bg-white" onclick="my_modal_3.showModal()">Details</button>
+                      <dialog id="my_modal_3" class="modal ">
+                        <div class="modal-box">
+                          <div class="card card-compact lg:w-94  bg-white text-black">
+                            <figure><img src="./images/fruit8.png" alt="" /></figure>
+                            <div class="card-body ">
+                              <h2 class="card-title justify-center text-black">12.90$ - 18.85$
+                               </h2>
+                              <p class="text-center text-black font-semibold">Red Dragon</p>
+                              <p>Professional employees are there for you to pick the most
+                                amazing and fresh fruits</p>
+                              <div class="rating justify-center">
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-red-400" checked/>
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-red-400"  />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-red-400" />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-red-400" />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-red-400" />
+                              </div>
+                            </div>
+                          <div class="modal-action">
+                            <form method="dialog">
+                              
+                              <button class="btn bg-red-600">Close</button>
+                              <button class="btn bg-red-600">Buy Now</button>
+                            </form>
+                          </div>
+                        </div>
+                      </dialog> 
                       </div>
                   </div>
               </div>
@@ -222,7 +395,7 @@
                     <div class="card-body ">
                       <h2 class="card-title justify-center text-black">12.90$ - 18.85$
                        </h2>
-                      <p class="text-center text-black">Banana</p>
+                      <p class="text-center text-black font-semibold">Banana</p>
                       <div class="rating justify-center">
                         <input type="radio" name="rating-4" class="mask mask-star-2 bg-red-400"checked />
                         <input type="radio" name="rating-4" class="mask mask-star-2 bg-red-400"  />
@@ -232,7 +405,34 @@
                       </div>
                     </div>
                     <div class="card-actions justify-center">
-                        <button class="text-red-600">Details</button>
+                      <button class="btn text-red-600 bg-white" onclick="my_modal_4.showModal()">Details</button>
+                      <dialog id="my_modal_4" class="modal ">
+                        <div class="modal-box">
+                          <div class="card card-compact  bg-white text-black">
+                            <figure><img src="./images/fruit9.png" alt="" /></figure>
+                            <div class="card-body ">
+                              <h2 class="card-title justify-center text-black">12.90$ - 18.85$
+                               </h2>
+                              <p class="text-center text-black font-semibold">Banana</p>
+                              <p>Professional employees are there for you to pick the most
+                                amazing and fresh fruits</p>
+                              <div class="rating justify-center">
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-red-400" checked/>
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-red-400"  />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-red-400" />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-red-400" />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-red-400" />
+                              </div>
+                            </div>
+                          <div class="modal-action">
+                            <form method="dialog">
+                              <!-- if there is a button in form, it will close the modal -->
+                              <button class="btn bg-red-600">Close</button>
+                              <button class="btn bg-red-600">Buy Now</button>
+                            </form>
+                          </div>
+                        </div>
+                      </dialog> 
                       </div>
                   </div>
                  
@@ -254,21 +454,21 @@
                 <img src="./images/team.png" alt="Background Image" class="absolute inset-0 w-full h-full object-cover z-10" />
               
                 <!-- Container for cards and text -->
-                <div class="relative z-20 p-4  justify-between">
-                  <div class="p-12 text-center ">
-                    <h1 class="text-white text-4xl font-bold text-black 	">Meet the team section
+                <div class="relative z-20 p-4  justify-between ">
+                  <div class="p-12 text-center text-white">
+                    <h1 class=" text-4xl font-bold 	">Meet the team section
                     </h1>
-                  <p class="text-white pt-5 text-black ">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>
+                  <p class=" pt-5 ">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>
                     Latin literature from 45 BC, making it over 2000 years old.</p>
                   </div>
 
-                  <div class="flex gap-12  justify-center p-20 ">
+                  <div class=" lg:flex flex-row gap-12 justify-center  p-20    ">
                         <!-- Card 1 -->
-                  <div class="card">
+                  <div class="card  ">
                     <!-- Card content -->
                    
                     <div class="card card-compact w-90 ">
-                        <figure><img src="./images/member1.png" alt="Shoes" /></figure>
+                        <figure><img src="./images/member1.png" alt="" /></figure>
                         <div class="card-body">
                           <h2 class="text-center text-white text-2xl">Awlad Hossain
                             </h2>
@@ -287,7 +487,7 @@
                         <!-- Card content -->
                        
                         <div class="card card-compact w-90 ">
-                            <figure><img src="./images/member2.png" alt="Shoes" /></figure>
+                            <figure><img src="./images/member2.png" alt="" /></figure>
                             <div class="card-body">
                               <h2 class="text-center text-white text-2xl">Safia Chowdhury
                               </h2>
@@ -306,7 +506,7 @@
                             <!-- Card content -->
                            
                             <div class="card card-compact w-90 ">
-                                <figure><img src="./images/member3.png " alt="Shoes" /></figure>
+                                <figure><img src="./images/member3.png " alt="" /></figure>
                                 <div class="card-body">
                                   <h2 class="text-center text-white text-2xl">Rokib Hossain
                                     </h2>
@@ -325,7 +525,7 @@
                                 <!-- Card content -->
                                
                                 <div class="card card-compact w-90 ">
-                                    <figure><img src="./images/member4.png" alt="Shoes" /></figure>
+                                    <figure><img src="./images/member4.png" alt="" /></figure>
                                     <div class="card-body">
                                       <h2 class="text-center text-white text-2xl">Chaity 
                                         </h2>
@@ -348,22 +548,89 @@
              </section>
             
         </div>
+        <!-- why choose section --> 
+        <section class="">
+              <div class="text-black text-center p-12">
+                <h1 class="text-4xl font-bold pb-5">Why Choose Us</h1>
+                <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>
+                  Latin literature from 45 BC, making it over 2000 years old.</p>
+              </div>
+          <div class=" lg:flex mt-12  ">
+           <div class="section-start text-black p-12 ">
+            <div class="flex flex-row-col  items-center">
+              <i class="fa-solid fa-people-group fa-2xl"></i>
+              <div class="p-4 ">
+                <h1 class="font-bold m-2 "><span class="  border-b-2 border-black ">Dedicated T</span>eam</h1>
+                <p>Professional employees are there for you to pick <br>
+                  the most amazing and fresh fruits.</p>
+              </div>
+            </div>
+            <div class="flex flex-row  items-center">
+              <i class="fa-solid fa-apple-whole fa-2xl"></i>
+              <div class="p-4 ">
+                <h1 class="font-bold m-2 "><span class="  border-b-2 border-black">Fresh is B</span>est </h1>
+                <p>Professional employees are there for you to pick <br>
+                  the most amazing and fresh fruits.</p>
+              </div>
+            </div>
+            <div class="flex flex-row items-center">
+              <i class="fa-solid fa-gifts fa-2xl"></i>
+              <div class="p-4 ">
+                <h1 class="font-bold m-2 "><span class="  border-b-2 border-black">Gift Cert</span>ficates</h1>
+                <p>Professional employees are there for you to pick <br>
+                  the most amazing and fresh fruits.</p>
+              </div>
+            </div>
+           </div>
+           <div class="section-center">
+            <img class="" src="./images/whychoose1.png" alt="" srcset="">
+           </div>
+           <div class="section-end text-black text-right p-12 ">
+            <div class="flex flex-row  items-center">
+              <div class="p-4">
+                <h1 class="font-bold m-2">Integrate<span class="border-b-2 border-black ">d Supplier</span></h1>
+                <p>Professional employees are there for you to pick <br>
+                  the most amazing and fresh fruits.</p>
+              </div>
+              <i class="fa-solid fa-truck-fast fa-2xl"></i>
+            </div>
+            <div class="flex flex-row  items-center">
+              <div class="p-4">
+                <h1 class="font-bold m-2">Sustainab<span class="border-b-2 border-black ">le Practice</span></h1>
+                <p>Professional employees are there for you to pick <br>
+                  the most amazing and fresh fruits.</p>
+              </div>
+              <i class="fa-solid fa-ice-cream fa-2xl"></i>
+            </div>
+            <div class="flex flex-row  items-center">
+              <div class="p-4">
+                <h1 class="font-bold m-2">The Bene<span class="border-b-2 border-black ">efits Only</span></h1>
+                <p>Professional employees are there for you to pick <br>
+                  the most amazing and fresh fruits.</p>
+              </div>
+              <i class="fa-solid fa-hand-point-left fa-2xl"></i>
+            </div>
+           </div>
+          </div>
+        </section>
+        
     </main>
+ 
                   <footer class="bg-base-100">
                     <div class=" flex justify-center mt-12 p-12 ">
                       <img src="./images/logo.png" alt="" srcset="">
                     <a class=" text-white text-4xl px-5">Fruit Burst</a>
                     </div>
-                      <ul class="text-white flex  justify-center  mt-3 space-y-[5px]	" >
-                        <li>Home</li>
+                      <ul class="text-white flex  justify-center  mt-3 lg:gap-x-12 sm:gap-x-6 	" >
+                        <li><a >Home</a></li>
                         <li>About Us</li>
-                        <li>Shop</li>
+                        <li><a>Shop</a></li>
                         <li>All Fruits</li>
                         <li>Support</li>
-                        <li>My Account</li>
+                        <li><a href="">My Account</a></li>
                       </ul>
 
-                      <div class="text-center mt-12 text-4xl text-white	 ">
+                      <div class="text-center m-12 text-4xl text-white	lg:space-x-12">
                         <i class="fa-brands fa-x-twitter "></i>
                         <i class="bg-sky-600 fa-brands fa-facebook"></i>
                         <i class="fa-brands fa-youtube"></i>
@@ -374,5 +641,8 @@
                       
 
                   </footer>
+                 
+                
+              
 </body>
 </html>
